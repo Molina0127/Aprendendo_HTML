@@ -1,4 +1,4 @@
-<h1 align="center" text-decoration="none">Aprendendo HTML</h1>
+<h1 align="center">Aprendendo HTML</h1>
 
 <p align="center">
     <a href="#sobre">Sobre</a> ●
@@ -18,6 +18,8 @@ Visto que eu não me recordava muito bem como criar determinadas estruturas em f
 
 <p>
 Para criar esse projeto foi utilizado apenas o <code>HTML5</code> e a IDE <a href="https://code.visualstudio.com/">Visual Studio Code</a> sendo assim não é necessário instalar nenhum tipo de dependência, qualquer navegador consegue acessar os exercícios. 
+
+
 </p>
 
 
@@ -32,4 +34,4 @@ Para criar esse projeto foi utilizado apenas o <code>HTML5</code> e a IDE <a hre
 
 <br>
 
-<h4 align="center"> 🚧 Project in development by Molina0127 👷‍♂️🚧 </h4>
+<h4 align="center"> 🚧 Project in development by Molina0127 👷‍♂️🚧 <a href="https://www.linkedin.com/in/guilherme-molina-trindade-784bb420a/">Veja meu LinkedIn</a></h4>
