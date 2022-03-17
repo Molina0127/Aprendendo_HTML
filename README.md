@@ -1,8 +1,6 @@
 <h1 align="center">Aprendendo HTML</h1>
 
-![HTML Logo](./Exercises/img/logo_html-convertido-350.png "Logo HTML Laranja com formato circular")
-
-<img src="" alt="">
+<img align="center" height="100" src="./Exercises/img/logo_html-convertido-350.png" alt=""/>
 
 <p align="center">
     <a href="#sobre">Sobre</a> ●
