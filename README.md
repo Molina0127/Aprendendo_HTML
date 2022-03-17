@@ -21,8 +21,9 @@ Para criar esse projeto foi utilizado apenas o <code>HTML5</code> e a IDE <a hre
 
 Navegadores como:
 
-<a href="https://www.google.com/chrome/?brand=BNSD&gclid=Cj0KCQjwuMuRBhCJARIsAHXdnqNPdog6aEqlDBO6Rhbp_G739_K2naiFHUjCGzQGuebafCNptoviDY4aAlzZEALw_wcB&gclsrc=aw.ds"><img width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg"/></a><a href="https://www.mozilla.org/pt-BR/firefox/new/"><img width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firefox/firefox-original.svg"/></a><a href="https://www.opera.com/pt-br/gx"><img width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opera/opera-original.svg"/></a>
+<a href="https://www.google.com/chrome/?brand=BNSD&gclid=Cj0KCQjwuMuRBhCJARIsAHXdnqNPdog6aEqlDBO6Rhbp_G739_K2naiFHUjCGzQGuebafCNptoviDY4aAlzZEALw_wcB&gclsrc=aw.ds"><img style="margin-right: 14px" width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg"/></a><a href="https://www.mozilla.org/pt-BR/firefox/new/"><img style="margin-right: 14px" width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firefox/firefox-original.svg"/></a><a href="https://www.opera.com/pt-br/gx"><img width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opera/opera-original.svg"/></a>
 
+Entre outros . . .
 
 </p>
 
