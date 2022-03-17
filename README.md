@@ -19,6 +19,12 @@ Visto que eu não me recordava muito bem como criar determinadas estruturas em f
 <p>
 Para criar esse projeto foi utilizado apenas o <code>HTML5</code> e a IDE <a href="https://code.visualstudio.com/">Visual Studio Code</a> sendo assim não é necessário instalar nenhum tipo de dependência, qualquer navegador consegue acessar os exercícios. 
 
+Navegadores como:
+
+<img width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" />
+<img width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firefox/firefox-original.svg" />
+<img width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opera/opera-original.svg" />
+
 
 </p>
 
@@ -34,4 +40,4 @@ Para criar esse projeto foi utilizado apenas o <code>HTML5</code> e a IDE <a hre
 
 <br>
 
-<h4 align="center"> 🚧 Project in development by Molina0127 👷‍♂️🚧 <a href="https://www.linkedin.com/in/guilherme-molina-trindade-784bb420a/">Veja meu LinkedIn</a></h4>
+<h4 align="center"> 🚧 Projeto em desenvolvimento por Molina0127 👷‍♂️🚧 <a href="https://www.linkedin.com/in/guilherme-molina-trindade-784bb420a/">Veja meu LinkedIn</a></h4>
