@@ -21,9 +21,9 @@ Para criar esse projeto foi utilizado apenas o <code>HTML5</code> e a IDE <a hre
 
 Navegadores como:
 
-<img width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" />
-<img width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firefox/firefox-original.svg" />
-<img width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opera/opera-original.svg" />
+<img width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" display="inline"/>
+<img width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firefox/firefox-original.svg" display="inline"/>
+<img width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opera/opera-original.svg" display="inline"/>
 
 
 </p>
