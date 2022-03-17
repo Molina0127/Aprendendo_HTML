@@ -1,6 +1,9 @@
 <h1 align="center">Aprendendo HTML</h1>
 
-<img align="center" height="100" src="./Exercises/img/logo_html-convertido-350.png" alt=""/>
+<p align="center">
+<img height="100" src="./Exercises/img/logo_html-convertido-350.png" alt=""/>
+</p>
+
 
 <p align="center">
     <a href="#sobre">Sobre</a> ●
