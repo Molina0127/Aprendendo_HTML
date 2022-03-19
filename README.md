@@ -44,4 +44,5 @@ Entre outros . . .
 
 <br>
 
-<h4 align="center"> 🚧 Projeto em desenvolvimento por Molina0127 👷‍♂️🚧 <a href="https://www.linkedin.com/in/guilherme-molina-trindade-784bb420a/">Veja meu LinkedIn</a></h4>
+<h4 align="center"> 🚧 Projeto em desenvolvimento por Molina0127 👷‍♂️🚧</h4><br>
+<a align="center" href="https://www.linkedin.com/in/guilherme-molina-trindade-784bb420a/">Veja meu LinkedIn</a>
