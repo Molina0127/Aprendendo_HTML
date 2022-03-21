@@ -20,17 +20,19 @@
 
     header {
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+        
         background-color:rgb(83, 176, 199);
-        opacity: 70%;
-        box-shadow: 20px;
+        gap: 2rem;
+        
+        position: fixed;
+        width: 100vw;
         height: 150px;
     }
 
     .links {
         text-decoration: none;
-        margin-right: 18px;
         font-size: 25px;
         color: black;
     }
@@ -47,15 +49,22 @@
 
     article {
         /* padding: 0px 200px 0px 200px; */
-        background-color:rgb(83, 176, 199);
-        opacity: 70%;
-        box-shadow: 20px;
+        
         min-height: 100vh; 
+        padding-top: 170px;
+        background-color:rgb(156, 234, 253);
+        box-shadow: 20px;
+    }
+
+    #exercise1 {
+        
+        /* opacity: 70%; */
+        
     }
 
     hr {
         height: 0.1px;
-        border: 0.1px solid rgb(83, 176, 199);
+        border: 0.1px solid rgb(0, 0, 0);
         opacity: 90%;
     }
 
@@ -71,10 +80,11 @@
        <a class="links" href="#exercise5">Exercise 5</a> 
     </header>
 
-    <hr>
+    <!--<hr>-->
 
-    <article>
-        <h2><a name="exercise1"></a>Exercise 1</h2>
+    <article id="exercise1">
+        
+        <h2> Exercise 1</h2>
 
         <p>Use the correct HTML tag to add a paragraph with the text "Hello World!".</p>
 
@@ -92,10 +102,10 @@
     </article>
     
     
-    <hr>
+    <!-- <hr> -->
     
-    <article>
-        <h2><a name="exercise2"></a>Exercise 2</h2>
+    <article id="exercise2">
+        <h2>Exercise 2</h2>
     
         <p>Clean up this document with proper end tags.</p>
         
@@ -105,10 +115,10 @@
         </p>   
     </article>
      
-    <hr>
+    <!-- <hr> -->
 
-    <article>
-        <h2><a name="exercise3">Exercise 3</h2>
+    <article id="exercise3">
+        <h2>Exercise 3</h2>
     
             <p>
                 &lt;h1&gt;London&lt;/h1&gt;<br>
@@ -119,10 +129,10 @@
     </article>
     
     
-    <hr>
+    <!-- <hr> -->
 
-    <article>
-        <h2><a name="exercise4">Exercise 4</h2>
+    <article id="exercise4">
+        <h2>Exercise 4</h2>
     
             <p>
                 &lt;p&gt;My Bonnie lies over the ocean.&lt;/p&gt;
@@ -131,10 +141,10 @@
 
     
     
-    <hr>
+    <!-- <hr> -->
 
-    <article>
-    <h2><a name="exercise5">Exercise 5</h2>
+    <article id="exercise5">
+    <h2>Exercise 5</h2>
 
 
 <pre><p>
