@@ -23,12 +23,14 @@
         align-items: center;
         justify-content: center;
         
-        background-color:rgb(83, 176, 199);
+        background-color:rgb(91, 202, 230);
         gap: 2rem;
         
         position: fixed;
         width: 100vw;
         height: 150px;
+
+        z-index: 999;
     }
 
     .links {
@@ -48,7 +50,7 @@
     }
 
     article {
-        /* padding: 0px 200px 0px 200px; */
+        padding: 0px 200px 0px 200px;
         
         min-height: 100vh; 
         padding-top: 170px;
@@ -56,10 +58,13 @@
         box-shadow: 20px;
     }
 
-    #exercise1 {
-        
-        /* opacity: 70%; */
-        
+    .style-box {
+        border: 1px solid;  
+        border-radius: 1.5rem;
+        margin-top: 1.4rem;
+        margin-bottom: 1.4rem;
+        background-color: #56C5D8;
+        opacity: 75%;      
     }
 
     hr {
@@ -68,6 +73,13 @@
         opacity: 90%;
     }
 
+    p.title {
+        text-align: center;
+    }
+
+    pre {
+        line-height: 180%;
+    }
 </style>
 
 <body>
@@ -86,15 +98,20 @@
         
         <h2> Exercise 1</h2>
 
-        <p>Use the correct HTML tag to add a paragraph with the text "Hello World!".</p>
+        <p class="title">Use the correct HTML tag to add a paragraph with the text "Hello World!".</p>
 
-        <p style="line-height:27px">
-        &lt;html&gt;<br>
-        &lt;body&gt;<br>
-        &lt;p&gt;"Hello World!"&lt;/p&gt;<br>
-        &lt;/body&gt;<br>
-        &lt;/html&gt;
-        </p>
+        <div class="style-box">
+<p style="line-height:27px">
+    <pre>
+    &lt;html&gt;    
+        &lt;body&gt;    
+            &lt;p&gt;"Hello World!"&lt;/p&gt;   
+        &lt;/body&gt;   
+    &lt;/html&gt;
+    </pre>
+</p>
+        </div>
+        
 
         <h3>Show the expect result:</h3>
 
