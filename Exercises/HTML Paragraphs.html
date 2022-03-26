@@ -16,6 +16,7 @@
 
     html {
         scroll-behavior: smooth;
+        transition: 0.2s;
     }
 
     header {
@@ -28,7 +29,7 @@
         
         position: fixed;
         width: 100vw;
-        height: 150px;
+        height: 100px;
 
         z-index: 999;
     }
@@ -53,12 +54,13 @@
         padding: 0px 200px 0px 200px;
         
         min-height: 100vh; 
-        padding-top: 170px;
+        padding-top: 120px;
         background-color:rgb(156, 234, 253);
         box-shadow: 20px;
     }
 
     .style-box {
+        box-sizing: border-box;
         border: 1px solid;  
         border-radius: 1.5rem;
         margin-top: 1.4rem;
@@ -67,19 +69,43 @@
         opacity: 75%;      
     }
 
+    .style-box#one {
+        height: 9.4rem;
+    }
+
+    .style-box#two {
+        height: 6.85rem;
+    }
+
+    .style-box#five {
+        height: 14rem;
+    }
+
+
+
     hr {
-        height: 0.1px;
-        border: 0.1px solid rgb(0, 0, 0);
-        opacity: 90%;
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(92, 188, 212, 0.829), rgba(108, 226, 255, 0.979), rgba(92, 188, 212, 0.829));
     }
 
     p.title {
         text-align: center;
     }
 
-    pre {
+    #pre1 {
         line-height: 180%;
     }
+
+    #pre3 {
+        line-height: 160%;
+    }
+
+    #pre5 {
+        line-height: 150%;
+    }
+
+
 </style>
 
 <body>
@@ -92,17 +118,15 @@
        <a class="links" href="#exercise5">Exercise 5</a> 
     </header>
 
-    <!--<hr>-->
-
     <article id="exercise1">
         
         <h2> Exercise 1</h2>
 
         <p class="title">Use the correct HTML tag to add a paragraph with the text "Hello World!".</p>
 
-        <div class="style-box">
-<p style="line-height:27px">
-    <pre>
+<div class="style-box" id="one">
+<p>
+    <pre id="pre1">
     &lt;html&gt;    
         &lt;body&gt;    
             &lt;p&gt;"Hello World!"&lt;/p&gt;   
@@ -110,7 +134,7 @@
     &lt;/html&gt;
     </pre>
 </p>
-        </div>
+</div>
         
 
         <h3>Show the expect result:</h3>
@@ -119,17 +143,24 @@
     </article>
     
     
-    <!-- <hr> -->
+    <hr>
     
     <article id="exercise2">
         <h2>Exercise 2</h2>
     
-        <p>Clean up this document with proper end tags.</p>
+        <p class="title">Clean up this document with proper end tags.</p>
         
-        <p style="line-height:27px">
-        &lt;h1&gt;This is a Heading&lt;/h1&gt;<br>
-        &lt;p&gt;This is a paragraph.&lt;/p&gt;
-        </p>   
+<div class="style-box" id="two">
+<p>
+<pre>    
+    &lt;h1&gt;This is a Heading&lt;/h1&gt;<br>
+    &lt;p&gt;This is a paragraph.&lt;/p&gt;
+</pre>
+</p>
+</div>
+
+<h3>Show the expect result:</h3>
+        
     </article>
      
     <!-- <hr> -->
@@ -137,12 +168,21 @@
     <article id="exercise3">
         <h2>Exercise 3</h2>
     
-            <p>
-                &lt;h1&gt;London&lt;/h1&gt;<br>
-                &lt;p&gt;London is the capital city of England. It is the most populous city
-                in the United Kingdom, with a metropolian area of over 13 milion inhabitants.
-                &lt;/p&gt;
-            </p>
+        <p class="title">Add a horizontal rule between the heading and the paragraph.</p>
+
+        <div class="style-box">
+<pre id="pre3">
+<p>
+    &lt;h1&gt;London&lt;/h1&gt;
+    &lt;hr&gt;
+    &lt;p&gt;London is the capital city of England. It is the most populous city
+    in the United Kingdom, with a metropolian area of over 13 milion inhabitants.&lt;/p&gt;
+</p>
+</pre>
+        </div>
+
+        <h3>Show the expect result:</h3>    
+    
     </article>
     
     
@@ -151,9 +191,18 @@
     <article id="exercise4">
         <h2>Exercise 4</h2>
     
-            <p>
-                &lt;p&gt;My Bonnie lies over the ocean.&lt;/p&gt;
-            </p>
+        <p class="title">Add a line break in the middle of the paragraph</p>
+            
+        <div class="style-box">
+<pre>
+<p>
+    &lt;p&gt;My Bonnie lies &lt;br&gt; over the ocean.&lt;/p&gt;
+</p>
+</pre>
+        </div>
+
+        <h3>Show the expect result:</h3>
+            
     </article>
 
     
@@ -163,18 +212,26 @@
     <article id="exercise5">
     <h2>Exercise 5</h2>
 
+    <p class="title">Wrap this poem around HTML tags that will preserve all spaces and linebreaks when the element is displayed.</p>
 
-<pre><p>
-&lt;pre&gt;
-My Bonnie lies over the ocean.
+    <div class="style-box" id="five">
+<p>
+<pre id="pre5">
+    &lt;pre&gt;
+    My Bonnie lies over the ocean.
+    
+    My Bonnie lies over the sea.
+    
+    My Bonnie lies over the ocean.
+    
+    Oh, bring back my Bonnie to me.
+    &lt;/pre&gt;
+</pre>
+</p>
+    </div>
 
-My Bonnie lies over the sea.
+    <h3>Show the expect result:</h3>
 
-My Bonnie lies over the ocean.
-
-Oh, bring back my Bonnie to me.
-&lt;/pre&gt;
-</p></pre>
     </article>
 
     
