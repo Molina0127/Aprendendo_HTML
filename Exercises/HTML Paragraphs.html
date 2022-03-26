@@ -22,22 +22,33 @@
     header {
         display: flex;
         align-items: center;
-        justify-content: center;
-        
+        justify-content: space-between;
+
         background-color:rgb(91, 202, 230);
-        gap: 2rem;
         
         position: fixed;
         width: 100vw;
         height: 100px;
 
         z-index: 999;
+
+        -webkit-box-shadow: 1px 3px 9px 0px rgba(0,0,0,0.66); 
+        box-shadow: 1px 3px 9px 0px rgba(0,0,0,0.66);
+    }
+
+    h1 {
+        margin: auto;
+    }
+
+    nav {
+        margin: auto;
     }
 
     .links {
         text-decoration: none;
         font-size: 25px;
         color: black;
+        margin-right: 2.75rem;
     }
 
     .links:hover {
@@ -55,7 +66,7 @@
         
         min-height: 100vh; 
         padding-top: 120px;
-        background-color:rgb(156, 234, 253);
+        background-image: linear-gradient(to right, rgb(156, 234, 253), rgb(102, 224, 255), rgb(15, 201, 248));
         box-shadow: 20px;
     }
 
@@ -111,11 +122,15 @@
 <body>
 
     <header>
-       <a class="links" href="#exercise1">Exercise 1</a>
-       <a class="links" href="#exercise2">Exercise 2</a>
-       <a class="links" href="#exercise3">Exercise 3</a>
-       <a class="links" href="#exercise4">Exercise 4</a>
-       <a class="links" href="#exercise5">Exercise 5</a> 
+        <h1>HTML Paragraphs</h1>
+        <nav>
+            <a class="links" href="#exercise1">Exercise 1</a>
+            <a class="links" href="#exercise2">Exercise 2</a>
+            <a class="links" href="#exercise3">Exercise 3</a>
+            <a class="links" href="#exercise4">Exercise 4</a>
+            <a class="links" href="#exercise5">Exercise 5</a> 
+        </nav>
+        
     </header>
 
     <article id="exercise1">
