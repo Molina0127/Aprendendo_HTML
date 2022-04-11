@@ -19,6 +19,16 @@ Visto que eu não me recordava muito bem como criar determinadas estruturas em f
 </p>
 
 # Tecnologias
+<p style="
+   display: inline;
+">
+<img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Molina0127/Aprendendo_HTML" />
+<img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Molina0127/Aprendendo_HTML"/>
+<img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/Molina0127/Aprendendo_HTML"/>
+<img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/Molina0127/Aprendendo_HTML"/>
+<img alt="GitHub Issues" src="https://img.shields.io/github/issues/Molina0127/Aprendendo_HTML"/>
+</p>
+
 
 <p>
     Para criar esse projeto foi utilizado o <code>HTML5</code> e a linguagem de estilo <code>CSS3</code> IDE <a href="https://code.visualstudio.com/">Visual Studio Code</a> sendo assim não é necessário instalar nenhum tipo de dependência, qualquer navegador consegue acessar os exercícios. 
