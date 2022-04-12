@@ -31,7 +31,7 @@ Visto que eu não me recordava muito bem como criar determinadas estruturas em f
 
 
 <p>
-    Para criar esse projeto foi utilizado o <code>HTML5</code> e a linguagem de estilo <code>CSS3</code> IDE <a href="https://code.visualstudio.com/">Visual Studio Code</a> sendo assim não é necessário instalar nenhum tipo de dependência, qualquer navegador consegue acessar os exercícios. 
+    Para criar esse projeto foi utilizado o <code>HTML5</code> e a linguagem de estilo <code>CSS3</code> o uso da IDE <a href="https://code.visualstudio.com/">Visual Studio Code</a> sendo assim não é necessário instalar nenhum tipo de dependência, qualquer navegador consegue acessar os exercícios. 
 
 Navegadores como:
 
